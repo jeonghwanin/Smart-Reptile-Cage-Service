@@ -1,0 +1,65 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.13'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'com.ssafy'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = 11
+	targetCompatibility = 11
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+// 프로젝트 생성할 때 추가했던 라이브러리들
+// 의존성 관리
+// 수정하게 됐을 경우 gradle update 필요
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web-services'
+	implementation 'org.springframework.boot:spring-boot-starter-security' // springsecurity
+//	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client' // oauth
+	implementation group: 'org.eclipse.paho', name: 'org.eclipse.paho.client.mqttv3', version: '1.2.5'
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.7.1'
+
+	// jwt
+	implementation 'io.jsonwebtoken:jjwt:0.9.1'
+	implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+	implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
+	implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
+	implementation 'javax.xml.bind:jaxb-api:2.3.1'
+	implementation 'jakarta.platform:jakarta.jakartaee-api:8.0.0'
+
+
+	implementation 'com.zaxxer:HikariCP:3.4.5' // HikariCP 추가
+	implementation 'mysql:mysql-connector-java:8.0.26' // MySQL JDBC 드라이버 의존성 추가
+//	implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0' // Swagger
+	implementation 'org.springframework.boot:spring-boot-starter-mail'
+	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
+
+	runtimeOnly 'com.h2database:h2'
+	runtimeOnly 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.7.1'
+
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+//tasks.named('test') {
+//	useJUnitPlatform()
+//}
+

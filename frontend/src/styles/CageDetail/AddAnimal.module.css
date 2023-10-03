@@ -1,0 +1,66 @@
+/* 공통 */
+.boxShadow {
+  box-shadow: 4px 4px 10px 3px lightgray;
+}
+
+.inputsContainer {
+  width: 90vw;
+  height: 5vh;
+  margin: 3vh auto;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  text-align: center;
+}
+
+.inputInContainer {
+  height: 5vh;
+  border: none;
+  padding: 0px 2vw;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px 10px;
+  background-color: white;
+  font-size: 2vh;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alignCenter {
+  margin: 0px auto;
+}
+
+/* 도감 이미지 */
+.cageImgContainer {
+  width: 70vw;
+  height: 25vh;
+  margin: 5vh auto;
+}
+
+.cageImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* 도감 드롭다운 */
+.dropdownItems {
+  width: 90vw;
+  font-size: 1.5vh;
+  padding-bottom: 10vh;
+  font-weight: bold;
+  text-align: center;
+  z-index: 0;
+}
+
+/* 생일 정보*/
+
+/* 이슈 정보 */
+.issueInput {
+  width: 90vw;
+  height: 30vh;
+  margin-bottom: 2vh;
+}

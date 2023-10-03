@@ -1,0 +1,36 @@
+.videoContainer {
+  width: 90vw;
+  height: 40vh;
+  margin: 1vh auto;
+  box-shadow: 4px 4px 5px 3px lightgray;
+  border-radius: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainer {
+  width: 90vw;
+  height: 33vh;
+  margin: 1vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.btnRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10vh;
+}
+
+.toggleBtn {
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7vh;
+
+}

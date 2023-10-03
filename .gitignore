@@ -1,0 +1,45 @@
+backend/HELP.md
+backend/.gradle
+backend/build/
+backend/src/main/resources/application.yml
+ssafy-tcp4320268601883/
+
+iot/RPI4/yolov3_training_last.weights
+iot/RPI4/yolov3-tiny_obj_best.weights
+iot/RPI4/yolov3-tiny.weights
+iot/RPI4/yolov3-tiny_obj.cfg
+iot/RPI4/privkey.key
+!backend/gradle/wrapper/gradle-wrapper.jar
+!backend/**/src/main/**/build/
+!backend/**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+backend/.idea
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+backend/out/
+!backend/**/src/main/**/out/
+!backend/**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/

@@ -1,0 +1,48 @@
+.animalContainer {
+  width: 90%;
+  height: 15vh;
+  box-shadow: 4px 4px 10px 3px lightgray;
+  margin: 2vh auto;
+  padding: 2vh 5vw;
+  border-radius: 20px 20px;
+  display: flex;
+}
+
+.imgContainer {
+  height: 100%;
+  width: 40%;
+}
+
+.textContainer {
+  width: 60%;
+  padding-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.animalName {
+  text-align: left;
+  font-weight: bold;
+  font-size: 2.5vh;
+  margin: 0px 0px;
+}
+
+.animalInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1vh;
+}
+
+.animalText {
+  margin: 0px 0px;
+  
+}

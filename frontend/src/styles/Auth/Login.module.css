@@ -1,0 +1,50 @@
+.additionalLink {
+  text-decoration: none;
+  color:#5cb15a;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.loginBtn{
+  width: 100%;
+  height: 7vh;
+  margin-top: 3vh;
+  background-color: #5cb15a;
+  color: white;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.authForm {
+  height: 70vh;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.inputForm {
+  height: 4vh;
+}
+
+.textBox {
+  width: 100%;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textSize {
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.warningText {
+  margin-top: 1.5vh;
+  color: red;
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+
+.imgSize {
+  object-fit: contain;
+}

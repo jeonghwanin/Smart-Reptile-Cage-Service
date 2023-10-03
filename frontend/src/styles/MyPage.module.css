@@ -1,0 +1,138 @@
+/* 전체 영역 */
+.totalBox {
+  height: 100%;
+}
+
+/* 이미지 영역 */
+.imgContainer{
+  width: 100%;
+  height: 35vh;
+}
+
+.profileImg {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* 사용자 정보 영역 */
+.cardContainer {
+  position: fixed;
+  top: 35vh;
+  background-color: white;
+  width: 100%;
+  height: 50vh;
+  border-radius: 185px / 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.myInfo {
+  background-color: white;
+  width: 90%;
+  height: 25vh;
+  border-radius: 50px / 50px;
+  box-shadow: 3px 3px 20px 3px gray;
+  padding: 4vh 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.myName {
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.infoIcon {
+  font-size: 3vh;
+}
+
+.iconBox {
+  width: 4vh;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 5px;
+  box-shadow: 3px 3px 10px 3px gray;
+}
+
+.infoText {
+  font-size: 1.7vh;
+  font-weight: bold;
+}
+
+.updateInput {
+  width: 80%;
+  height: 100%;
+  border-radius: 5px 5px;
+  font-size: 1.7vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logOut {
+  font-size: 2vh;
+  text-decoration: none;
+  color: red;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* 버튼 컨테이너 */
+.farContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnContainer {
+  width: 80%;
+  margin-top: 1.5vh;
+  height: 5vh;
+}
+
+.btn {
+  height: 100%;
+  border-radius: 30px / 30px;
+  background-color: white;
+  margin: 1.5vh 0;
+  box-shadow: 4px 4px 5px 3px lightgray;
+  border: none;
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+
+/* 회원 정보 조작 모달창 */
+.actionName {
+  font-weight: bold;
+}
+
+.modalInput {
+  width: 100%;
+  height: 5vh;
+  margin: 3vh auto 1vh;
+  border-radius: 5px / 5px;
+  box-shadow: 4px 4px 10px 3px lightgray;
+  border: none;
+  font-size: 2vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+.warning {
+  color: red;
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;
+}

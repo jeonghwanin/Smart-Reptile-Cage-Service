@@ -1,0 +1,131 @@
+/* 공통 css */
+.noDeco {
+  text-decoration: none;
+  color: black;
+}
+
+.mainContainer {
+  background-color: white;
+  width: 90%;
+  margin: 2vh auto;
+  padding: 1.5vh 5vw 2vh;
+  border-radius: 20px 20px;
+  box-shadow: 4px 4px 10px 3px lightgray;
+}
+
+.containerTop {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.moveIcon {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+/* 케이지 정보 */
+.mainCages {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cagesContent {
+  height: 17vh;
+  padding: 0px 2vw;
+}
+
+.cageContent {
+  height: 17vh;
+  width: 45%;
+  margin: 0px 2vw;
+  box-shadow: 4px 4px 10px 3px lightgray;
+}
+
+.cageImg {
+  width:100%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.cageName {
+  font-size : 1.5vh;
+  font-weight: bold;
+}
+
+.noCage {
+  font-size: 2vmax;
+  font-weight: bold;
+}
+
+
+/* 도감 컨테이너 */
+.mainDic {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1vh;
+}
+
+.dicContainer {
+  margin: 2vh 0px 0px;
+  height: 25vh;
+}
+
+.dicContent {
+  height: 22vh;
+}
+
+.dicImg {
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.dicText {
+  font-size: 2vh;
+  font-weight: bold;
+  margin: 0px 0px;
+}
+
+/* 추천 상품 컨테이너 */
+.mainShops {
+  height: 20vh;
+}
+
+.shopContainer {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopContent {
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shopImg {
+  width: 50%;
+  object-fit: contain;
+}
+
+.shopTextBox {
+  font-size: 2vh;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.itemName {
+  text-decoration: none;
+}
+

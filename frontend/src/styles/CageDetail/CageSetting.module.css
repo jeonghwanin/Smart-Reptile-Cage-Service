@@ -1,0 +1,196 @@
+/* 페이지 공통 */
+.settingContainer {
+  width: 90vw;
+  height: 15vh;
+  margin: 3vh auto;
+  padding: 1.5vh 5vw;
+  border-radius: 10px 10px;
+  background-color: white;
+  box-shadow: 4px 4px 10px 3px lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.operIcon{
+  font-size: 3vh;
+  margin-left: 5vw;
+}
+
+.bottomContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* 자동화 설정 목록 */
+.settingTime {
+  font-weight: bold;
+  font-size: 4vh;
+  margin: 0px 0px;
+}
+
+.item {
+  width: 25vw;
+  height: 4vh;
+  border-radius: 10px 10px;
+  background-color: white;
+  box-shadow: 4px 4px 10px 3px lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
+}
+
+.selected {
+  background-color: #5cb15a;
+}
+
+.settingIcon {
+  margin: 0px 1vw;
+}
+
+
+/* 알람 설정 목록 */
+.setName {
+  font-weight: bold;
+  font-size: 2.5vh;
+  margin: 0px 0px;
+}
+
+.alarmInfoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.alarmCategory {
+  margin-right: 5vw;
+  padding: 0vh 2vw;
+  box-shadow: 2px 2px 10px 2px lightgray;
+}
+
+.alarmInfo {
+  margin: 0.5vh 0px;
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+
+.todayAlarm {
+  border: solid 10px #5cb15a;
+}
+
+
+
+/* 자동화 설정 모달 */
+.modalTitle {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.inputBox {
+  margin: 3vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconBox {
+  width: 10vh;
+  height: 10vh;
+  margin-right: 20px;
+  padding: 2vh 3vw;
+  border-radius: 10px 10px;
+  background-color: white;
+  box-shadow: 4px 4px 10px 3px lightgray;
+  font-size: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeBox{
+  width: 10vh;
+  height: 10vh;
+  margin-right: 20px;
+  padding: 2vh 3vw;
+  border-radius: 10px 10px;
+  font-size: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputTime {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.inputLabel {
+  width: 70%;
+  font-weight: bold;
+}
+
+.inputTag{
+  font-weight: bold;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.warningText {
+  color: red;
+  font-size: 2vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 알람 설정 모달 */
+.alarmContentBox {
+  margin: 0px auto 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contentTitle {
+  margin-bottom: 3vh;
+  text-align: left;
+  font-size: 2.5vh;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.alarmInputBox {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cycleInput {
+  width: 30%;
+  text-align: right;
+}
+
+.startInput {
+  width: 48%;
+}
+
+.inputShared {
+  padding: 1vh 2vw;
+  font-size: 2vh;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px 10px;
+  box-shadow: 2px 2px 10px 2px lightgray;
+}
+
+

@@ -1,0 +1,38 @@
+/* 헤더 */
+.Header {
+  color: white;
+  background-color: #5cb15a;
+  margin-top: 0px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10vw;
+}
+
+.pageName {
+  margin: 0px;
+  font-weight: bold;
+
+  font-size: 3vh
+}
+
+.headerIcon {
+  font-size: 3vh;
+}
+
+
+/* 경고 알람 */
+.modalTitle {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.warningText {
+  padding: 2vh 5vw;
+  font-size: 2vh;
+  font-weight:bold;
+}

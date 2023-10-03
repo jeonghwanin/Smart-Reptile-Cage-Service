@@ -1,0 +1,38 @@
+.boxShadow {
+  box-shadow: 4px 4px 10px 3px lightgray;
+}
+
+.cageImgContainer {
+  width: 40vmin;
+  height: 40vmin;
+  margin: 5vh auto;
+}
+
+.cageImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.inputCageInfo {
+  width: 80vw;
+  height: 5vh;
+  margin: 3vh auto;
+  padding: 0px 5vw;
+  border: none;
+  border-radius: 10px 10px;
+  background-color: white;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.dropdownItems{
+  width: 80vw;
+}
+
+.warningText {
+  color: red;
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+

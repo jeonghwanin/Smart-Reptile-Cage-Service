@@ -1,0 +1,40 @@
+.loadingBakcground {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #5cb15a;
+  z-index: 7;
+}
+
+.loadingBox {
+  position: fixed;
+  top: 25vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingImg {
+  width: 20vh;
+  margin: 5vh 0;
+}
+
+.spinner{
+  font-size: 30vh;
+}
+
+.loadingText {
+  font-size: 5vh;
+  font-weight: bold;
+  color: white;
+}
+
+.wrongText {
+  font-size: 4vh;
+  font-weight: bold;
+  color: white;
+}
